@@ -1,0 +1,268 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  background-color: rgba(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+  top: -3px;
+}
+
+#logo img {
+  width: 75px;
+  margin-right: 180px;
+}
+
+#end {
+  display: flex;
+  flex-direction: row;
+  padding: 25px;
+}
+
+#end img {
+  width: 28px;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  padding: 15px;
+}
+#search_bar {
+  display: flex;
+  position: absolute;
+  right: 150px;
+}
+
+#search_button {
+  background-color: rgb(223, 223, 223);
+  border: none;
+  border-radius: 50%;
+  position: absolute;
+  right: 170px;
+}
+#input {
+  background-color: rgb(223, 223, 223);
+  border: none;
+  width: 130px;
+  height: 35px;
+  border-radius: 18px;
+}
+::placeholder {
+  padding-left: 60px;
+}
+
+/*Main body*/
+
+a img {
+  height: 100%;
+  width: 100%;
+}
+
+.text {
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+.text h1 {
+  font-size: 60px;
+  font-weight: 1000;
+  margin: 0px;
+  margin-top: 15px;
+}
+.text p {
+  margin: 0px;
+}
+
+.text button {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  margin-top: 30px;
+  width: 150px;
+  border: 0px;
+  padding: 7px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.text button:hover {
+  background-color: rgb(59, 59, 59);
+  width: 180px;
+}
+
+#catalog {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 60px;
+}
+
+.row {
+  width: 50%;
+  position: relative;
+}
+
+.row img {
+  padding: 0;
+  width: 100%;
+}
+#content {
+  position: absolute;
+  color: white;
+  bottom: 30px;
+  left: 50px;
+}
+#catalog h1 {
+  margin-top: 0;
+}
+#catalog h2 {
+  margin-bottom: 0;
+}
+
+#content button {
+  font-weight: bold;
+  width: 90px;
+  border: 0px;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+#content button:hover {
+  background-color: rgb(0, 0, 0);
+  border: solid 1px;
+  border-color: white;
+  color: white;
+  transform: scale(1.2);
+}
+
+#single_image {
+  width: 100%;
+  cursor: pointer;
+  margin-top: 50px;
+}
+#shop_list h1 {
+  margin-top: 50px;
+  margin-left: 170px;
+  margin-bottom: 0px;
+  font-weight: 1000;
+}
+#list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#shop_list img {
+  width: 20%;
+  padding: 5px;
+  cursor: pointer;
+}
+
+#membership {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.item1 img {
+  width: 50vh;
+  padding: 1vh;
+}
+
+.item1 {
+  position: relative;
+}
+
+.content1 {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  color: white;
+}
+.membership_header {
+  margin-left: 19vh;
+}
+.content1 button {
+  font-weight: bold;
+  width: 90px;
+  border: 0px;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.content1 button:hover {
+  background-color: rgb(0, 0, 0);
+  border: solid 1px;
+  border-color: white;
+  color: white;
+  transform: scale(1.2);
+}
+
+#features {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.column a {
+  padding: 5px;
+  color: gray;
+  transition: 0.3s;
+}
+.column a :hover {
+  color: black;
+}
+hr {
+  margin-top: 30px;
+}
+#last {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 130px;
+}
+.column_content {
+  display: flex;
+  flex-direction: column;
+  padding: 80px;
+}
+.column_content a {
+  padding: 5px;
+  font-size: 12px;
+  color: gray;
+}
+
+#gray {
+  margin-left: 150px;
+  margin-bottom: 30px;
+}
+
+#gray a {
+  color: gray;
+  font-size: 11px;
+  padding: 10px;
+}
